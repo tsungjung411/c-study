@@ -72,3 +72,6 @@ ceil(r) - r = 0.000000000000000, is zero = 1
 r - floor(r) = 0.000000000000000, is zero = 1
 (r - floor(r)) * 1e15 = 0.000000000000000
 ```
+
+## 相關問題
+- [Checking if float is an integer](https://stackoverflow.com/questions/5796983/checking-if-float-is-an-integer)
