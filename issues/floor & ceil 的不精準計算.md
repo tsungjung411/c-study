@@ -75,3 +75,4 @@ r - floor(r) = 0.000000000000000, is zero = 1
 
 ## 相關問題
 - [Checking if float is an integer](https://stackoverflow.com/questions/5796983/checking-if-float-is-an-integer)
+- [Determining if a float has a fractional part?](https://stackoverflow.com/questions/8549365/determining-if-a-float-has-a-fractional-part)
