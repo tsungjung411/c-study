@@ -43,17 +43,17 @@ void main() {
 	
 	float r2 = pow(sqrt(2), 2); // should be 2
 	printf("use float:\n");
-	printf("r = %.15f\n", r2);
+	printf("r = %.16f\n", r2);
 	printf("r > 2  ? %d\n",  r2 > 2);
 	printf("r == 2 ? %d\n", r2 == 2);
 	printf("r < 2  ? %d\n",  r2 < 2);
-	printf("ceil(r) = %.15f\n", ceil(r2));
-	printf("floor(r) = %.15f\n", floor(r2));
-	printf("ceil(r) - r = %.15f, is zero = %d\n",
+	printf("ceil(r) = %.16f\n", ceil(r2));
+	printf("floor(r) = %.16f\n", floor(r2));
+	printf("ceil(r) - r = %.16f, is zero = %d\n",
 		(ceil(r2) - r2),  (ceil(r2) - r2) == 0);
-	printf("r - floor(r) = %.15f, is zero = %d\n",
+	printf("r - floor(r) = %.16f, is zero = %d\n",
 		(r2 - floor(r2)), (r2 - floor(r2)) == 0);
-	printf("(r - floor(r)) * 1e15 = %.15f\n",
+	printf("(r - floor(r)) * 1e15 = %.16f\n",
 		(r2 - floor(r2)) * 1e15);
 }
 ```
