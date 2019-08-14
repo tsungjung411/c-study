@@ -9,3 +9,5 @@
 ### strrev
 - [Solved] Undefined reference to strrev | Error Code in C
   <br>https://www.csestack.org/undefined-reference-to-strrev/
+  - Complete C Program for Palindrome | Check if String is Palindrome
+    <br>https://www.csestack.org/c-program-for-palindrome/
