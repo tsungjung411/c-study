@@ -12,4 +12,5 @@
   - .a 為靜態函式庫, 可以是 一個 或 多個 .o 合在一起, 用於靜態連結
   - .so 為動態函式庫, 類似 Windows 的 DLL(Dynamic-link library)檔
 - [Re: [問題] Linux 上 .a 跟 .so](https://www.ptt.cc/man/C_and_CPP/DBF2/D139/DA10/M.1212250886.A.DF4.html)
+  - .a 優點是執行效能通常會比 shared 和 dynamically loaded 快
   - Dynamicaaly loaded libraries 才是像 windows 所用的DLL
