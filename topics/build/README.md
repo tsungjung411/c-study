@@ -5,3 +5,11 @@
 
 ## 如何產生 .a 檔，並引用執行
 - [[C/C++] 3-1 建立.a函式庫來使用- 以Orwell Dev C++為例 @ 給你魚竿 :: 痞客邦 ::](https://rx1226.pixnet.net/blog/post/220107256)
+
+## Library 可分成三種：static、shared 與 dynamically loaded
+- [Linux 的 .a / .so / .la 函式庫的差異](https://blog.longwin.com.tw/2013/03/linux-a-so-la-library-diff-2013/)
+  - .o (obj file) 是目標物件函式庫, 等同於 Windows 的 .obj
+  - .a 為靜態函式庫, 可以是 一個 或 多個 .o 合在一起, 用於靜態連結
+  - .so 為動態函式庫, 類似 Windows 的 DLL(Dynamic-link library)檔
+- [Re: [問題] Linux 上 .a 跟 .so](https://www.ptt.cc/man/C_and_CPP/DBF2/D139/DA10/M.1212250886.A.DF4.html)
+  - Dynamicaaly loaded libraries 才是像 windows 所用的DLL
