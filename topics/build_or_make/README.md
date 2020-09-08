@@ -14,3 +14,9 @@
 - [Re: [問題] Linux 上 .a 跟 .so](https://www.ptt.cc/man/C_and_CPP/DBF2/D139/DA10/M.1212250886.A.DF4.html)
   - .a 優點是執行效能通常會比 shared 和 dynamically loaded 快
   - Dynamicaaly loaded libraries 才是像 windows 所用的DLL
+- [Linker Script初探 - GNU Linker Ld手冊略讀](http://wen00072.github.io/blog/2014/03/14/study-on-the-linker-script/)
+  - object(.o)檔
+  - archive(.a)檔
+  - shared object(.so)檔
+- [What exactly is in a .o / .a / .so file?](https://stackoverflow.com/questions/31179452/what-exactly-is-in-a-o-a-so-file)
+  - .a files are simply just archives (an old format that predates tar, but does the same thing). 
